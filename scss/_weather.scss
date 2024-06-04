@@ -1,0 +1,16 @@
+@import '_vars';
+@import '_cards';
+
+.weather_con {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 2rem;
+    justify-content: center;
+    .card {
+        background-color: $gray-38;
+        box-shadow: $shadow-xl;
+        border-radius: 2rem; 
+        @include cards
+    }
+}
