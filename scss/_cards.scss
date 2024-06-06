@@ -92,14 +92,14 @@
         }
         .hourly_list {
             display: flex;
-            gap: 2rem;
+            gap: 4rem;
         }
         .tile {
             width: 8rem;
             display: flex;
             flex-direction: column;
             text-align: center;
-            background-color: $black-1e;
+            background-color: transparentize($color: gray, $amount: 0.9);
             border-radius: 1rem;
         }
     }

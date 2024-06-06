@@ -136,7 +136,7 @@ document.querySelector('#app').innerHTML = `
             </span>
             <p>26°C</p>
             <span>
-              <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <svg width="55" height="55" viewBox="0 0 55 55" transform='rotate(210)' fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <rect width="55" height="55" fill="url(#pattern0_13_395)"/>
               <defs>
               <pattern id="pattern0_13_395" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -159,9 +159,9 @@ document.querySelector('.main'),
 document.getElementById('switchTheme'), 
 document.getElementById('search'), 
 document.querySelectorAll('.card'),
-document.querySelector('.tile'),
 document.querySelector('.sunrise'),
 document.querySelector('.sunset'),
 document.querySelector('.sec'),
 document.querySelectorAll('.bl'),
-document.querySelector('.list'))
+document.querySelector('.list'),
+document.querySelector('.hourly_list'))

@@ -252,7 +252,7 @@ input:checked + .slider:before {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 .weather_con .card.xl .tile {
   width: 8rem;
@@ -264,6 +264,6 @@ input:checked + .slider:before {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  background-color: #1e1e1e;
+  background-color: rgba(128, 128, 128, 0.1);
   border-radius: 1rem;
 }
