@@ -2,7 +2,7 @@ export function weather(creatorBtn, mainCon, switcher,
     searchInp, cards, sunrise, sunset, sec, bl,
     list, hourly) {
 
-    const apiKey = ''
+    const apiKey = 'Enter your API key from OpenWeather'
 
     const getWeather = function () {
         list.innerHTML = ''
